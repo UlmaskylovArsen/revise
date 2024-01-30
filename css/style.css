@@ -1,0 +1,63 @@
+:root{
+    --logo-color:#FED136;
+    --title-color:#222;
+    --text-color:#777;
+    --background-color:#FFF;
+    }
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+} 
+.container{
+    width: 0 15px;
+    padding: 0 auto; 
+    margin: 0 auto;
+} 
+.navigation-list{
+    display: flex;
+} 
+.navigation-item{
+    dispay-left: 30px;
+} 
+.header-wrap{
+    display: flex; 
+    justify-content: space-between;
+} 
+.header-logo{
+    font-family: "Bilbo Swash Caps";
+    color: var(--logo-color);
+    font-size:36px;
+    font-weight: 400;
+    line-height: 293%;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+.header{
+    padding-top:35px;
+    padding-bottom: 86px;
+} 
+.services-title{
+    color: var(--title-color);
+    font-size: 40px; 
+    font-weight: 700;
+    line-height: 187%;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 87px;
+} 
+.services-list{
+    display: flex; 
+    justify-content: space-between;
+} 
+.services-item{ 
+    display: flex;
+    width: 274px;
+    justify-content: center; 
+    flex-direction: column;
+} 
+.services-subtitle{
+    margin-bottom: 20px;
+}
+
+
